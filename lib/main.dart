@@ -19,16 +19,42 @@ class MyApp extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    Text("Woman", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15),),
-                    Text("Kids", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15),),
-                    Text("Shoes", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15),),
-                    Text("Bag", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15),),
+                    Text(
+                      "Woman",
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 15),
+                    ),
+                    Text(
+                      "Kids",
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 15),
+                    ),
+                    Text(
+                      "Shoes",
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 15),
+                    ),
+                    Text(
+                      "Bag",
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 15),
+                    ),
                   ],
                 ),
               ),
-              Expanded(flex: 1,child: Image.asset("assets/bag.jpeg",fit: BoxFit.cover,)),
-              SizedBox(height: 2),
-              Expanded(flex: 1,child: Image.asset("assets/cloth.jpeg",fit: BoxFit.cover,)),
+              Expanded(
+                  flex: 1,
+                  child: Image.asset(
+                    "assets/bag.jpeg",
+                    fit: BoxFit.cover,
+                  )),
+              SizedBox(height: 20),
+              Expanded(
+                  flex: 1,
+                  child: Image.asset(
+                    "assets/cloth.jpeg",
+                    fit: BoxFit.cover,
+                  )),
             ],
           ),
         ),
